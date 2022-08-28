@@ -1,4 +1,7 @@
-
+/* 
+Fomula:
+number=number*i
+*/
 let number=5
 let i = `${number}`-1
 let factorial
