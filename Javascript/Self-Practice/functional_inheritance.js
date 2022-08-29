@@ -1,3 +1,5 @@
+"use strict"
+
 function laptop (value){   // Parent function , the value which is given in line no: 18 is passed
     var hp = {} // created a new object hp
     hp.model=value.model // created an attribute called model inside the object hp
@@ -17,3 +19,8 @@ function HP (value){ // child function
 }
 let HP_pavilion = new HP({model:"pavilion-X50",year_of_manufacturing:2020}) // the object called HP_pavilion is declared and initialized to HP function with its attributes 
 console.log(HP_pavilion.greet()) // now the object can able to use the function greet and able to return its objects and attributes.
+
+
+/* the output would be
+The laptop model is pavilion-X50 and year of manufacturing is 2020
+*/
