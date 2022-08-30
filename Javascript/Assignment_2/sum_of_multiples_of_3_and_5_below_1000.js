@@ -1,5 +1,12 @@
 "use strict"
 
+
+/*
+Description:
+The sum of multiples of 3 and 5 below 1000 = Multiples of 3 + Multiples of 5
+*/
+
+
 let i=0 // initialize increment as 0
 let sum=0 // initialize sum as 0
 while(i<1000) { // range below 1000
